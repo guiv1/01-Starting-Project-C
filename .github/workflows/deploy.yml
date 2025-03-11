@@ -12,8 +12,8 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: udemy-mizon.8gtdo.mongodb.net
-      MONGODB_USERNAME: guillaumevertefeuille
-      MONGODB_PASSWORD: Yb0F99YHtRxZmblH
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
