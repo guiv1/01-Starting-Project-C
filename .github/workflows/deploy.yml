@@ -11,7 +11,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CUSTER_ADDRESS: udemy-mizon.8gtdo.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: udemy-mizon.8gtdo.mongodb.net
       MONGODB_USERNAME: guillaumevertefeuille
       MONGODB_PASSWORD: Yb0F99YHtRxZmblH
       PORT: 8080
